@@ -15,5 +15,5 @@
 # decode = jwt.decode(jwt_payload, 'django-insecure-kf2rz&=s_-zbat%hl+n_^4_5ek5g=0ts^w-m5@$cp0ia(l1qpl',  algorithms=["HS256"])
 # print(decode)
 
-xs = [4, 6, 2, 4].remove(6)
-print(xs)
+g = {'stone': 'scissors'}
+print([key for key in g.keys()][0])

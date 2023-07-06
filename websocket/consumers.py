@@ -6,7 +6,7 @@ from channels.db import database_sync_to_async
 import asyncio
 from .game_logic import define_winner
 from asgiref.sync import async_to_sync
-from .logs import log_parser
+
 
 choices_of_players = []
 
